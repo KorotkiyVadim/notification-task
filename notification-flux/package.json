@@ -25,7 +25,9 @@
     "react-dom": "^0.14.0"
   },
   "scripts": {
-    "test": "jest",
-    "test-debug": "node-debug --nodejs --harmony ./node_modules/jest-cli/bin/jest.js --runInBand"
+    "test": "jest"
+  },
+  "jest": {
+    "rootDir": "./app"
   }
 }
